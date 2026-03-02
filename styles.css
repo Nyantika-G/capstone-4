@@ -9,11 +9,11 @@
 
 /*body*/
 body {
-    font-family: "Bai Jamjuree", sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: hsi(210, 10%, 33%);
+    color: hsl(210, 10%, 33%);
 }
 
 /*HERO BAZCKGROUND*/
@@ -240,4 +240,106 @@ btn:hover {
     .feature p {
         max-width: 100%;
     }
+}
+/* MOTIS STYLING */
+/* Hero */
+.hero {
+    padding:60px 20px;
+}
+.devices img {
+    width: 80%;
+    max-width: 800px;
+    margin-bottom: 40px;
+}
+.subtitle {
+    font-size: 16px;
+    color:#777;
+    margin-bottom: 50px;
+}
+/* Features */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.feature {
+    max-width: 250px;
+}
+.icon {
+   font-size: 30px;
+   margin-bottom: 15px;
+}
+.feature h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.feature p {
+    font-size: 14px;
+    color: #777;
+}
+/* Logos */
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 60px 20px;
+}
+.logos img {
+    height: 35px;
+    opacity: 0.6;
+}
+/* Download */
+.download {
+    padding: 80px 20px;
+}
+.download h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+.download p {
+    font-size: 15px;
+    color: #777;
+    font-size: 15px;
+    margin: 0 auto 40px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.btn {
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+.btn-ios {
+    background-color:#2acfcf;
+}
+.btn-mac {
+    background-color: #6173ff;
+}
+/* Footer */
+footer {
+    background: #f7f7f7;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-links a,
+.socials a {
+    color: #555;
+    text-decoration: none;
+    margin: 10px;
+    font-size: 14px;
+}
+.footer-links a:hover,
+.socials a:hover {
+    color: #000;
 }
